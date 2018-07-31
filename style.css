@@ -27,9 +27,9 @@ footer{
 
 #feildHolder{
   border: solid 1px lightgrey;
-  height: 450px;
+  height: 500px;
   width: 90%;
-  margin: 35px 20px 0px 20px;
+  margin: 20px 20px 0px 20px;
 }
 
 .rightBottomBox{
@@ -42,4 +42,10 @@ footer{
 #loginBox{
   border: solid 1px lightgrey;
   height: 75px;
+}
+
+p
+{
+  margin:29px 30%;
+
 }
