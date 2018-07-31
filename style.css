@@ -1,0 +1,45 @@
+main {
+  height: 745px;
+
+
+}
+footer{
+  border: solid 1px black;
+  height: 100px;
+
+}
+
+#imageSection {
+  margin-left: 20%;
+}
+
+.positions {
+  width: 32%;
+  height: 745px;
+  float:left;
+}
+
+#imageHolder {
+  height: 600px;
+  margin: 65px 0;
+  float:left;
+}
+
+#feildHolder{
+  border: solid 1px lightgrey;
+  height: 450px;
+  width: 90%;
+  margin: 35px 20px 0px 20px;
+}
+
+.rightBottomBox{
+  height: 100px;
+  width: 90%;
+  margin: 10px 20px;
+  border: solid 1px black;
+}
+
+#loginBox{
+  border: solid 1px lightgrey;
+  height: 75px;
+}
