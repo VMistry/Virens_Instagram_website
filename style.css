@@ -1,12 +1,10 @@
 /*Tags*/
 main {
   height: 745px;
-
-
 }
 footer{
   border: solid 1px black;
-  height: 100px;
+  height: 75px;
 
 }
 
@@ -18,6 +16,12 @@ span{
 h3{
 float: left;
 
+}
+
+footer p{
+  float: left;
+  margin:30px 200px 30px 0;
+  font-size: 15px;
 }
 
 /*Classes*/
@@ -131,4 +135,11 @@ float: left;
 
 #bottomButton {
   margin-bottom: 20px;
+}
+
+#date{
+  color: grey;
+  float: right;
+  margin:30px 0 30px 200px;
+  font-size: 15px;
 }
