@@ -44,8 +44,29 @@ footer{
   height: 75px;
 }
 
-p
+#loginBox p
 {
   margin:29px 30%;
 
+}
+
+.rightBottomBox p{
+  margin:10px 40%;
+
+}
+
+#Logo{
+  width: 250px;
+  margin: 10px 80px;
+}
+
+#playStore{
+  margin-left:20px;
+
+}
+
+.badge{
+  width: 120px;
+  margin-left:75px;
+  margin-top:10px;
 }
