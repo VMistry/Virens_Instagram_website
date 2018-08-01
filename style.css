@@ -15,6 +15,11 @@ span{
 
 }
 
+h3{
+float: left;
+
+}
+
 /*Classes*/
 
 .rightBottomBox p{
@@ -40,6 +45,13 @@ span{
   width: 120px;
   margin-left:75px;
   margin-top:10px;
+}
+
+.line{
+  border-bottom:solid 1px grey;
+  width: 100px;
+  float: left;
+  margin:30px 10px;
 }
 
 /*ID's*/
@@ -94,4 +106,29 @@ span{
   width:250px;
   margin-left: 80px;
   font-weight: bold;
+}
+
+#feildHolder button{
+  color:white;
+  background-color:blue;
+  width:300px;
+  height:30px;
+  margin-left:60px;
+}
+
+#feildHolder input{
+  width:300px;
+  height:25px;
+  margin:4px 60px;
+  border: solid 1px lightgrey;
+  color: lightgrey;
+}
+
+#orLine{
+  margin:0 75px;
+  color: grey;
+}
+
+#bottomButton {
+  margin-bottom: 20px;
 }
