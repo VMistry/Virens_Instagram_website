@@ -1,3 +1,4 @@
+/*Tags*/
 main {
   height: 745px;
 
@@ -9,14 +10,42 @@ footer{
 
 }
 
-#imageSection {
-  margin-left: 20%;
+span{
+  font-weight: normal;
+
+}
+
+/*Classes*/
+
+.rightBottomBox p{
+  margin:20px 40% 10px 40%;
+
 }
 
 .positions {
   width: 32%;
   height: 745px;
   float:left;
+}
+
+.rightBottomBox{
+  height: 100px;
+  width: 90%;
+  margin: 10px 20px;
+  border: solid 1px black;
+}
+
+
+.badge{
+  width: 120px;
+  margin-left:75px;
+  margin-top:10px;
+}
+
+/*ID's*/
+
+#imageSection {
+  margin-left: 20%;
 }
 
 #imageHolder {
@@ -32,13 +61,6 @@ footer{
   margin: 20px 20px 0px 20px;
 }
 
-.rightBottomBox{
-  height: 100px;
-  width: 90%;
-  margin: 10px 20px;
-  border: solid 1px black;
-}
-
 #loginBox{
   border: solid 1px lightgrey;
   height: 75px;
@@ -47,11 +69,6 @@ footer{
 #loginBox p
 {
   margin:29px 30%;
-
-}
-
-.rightBottomBox p{
-  margin:10px 40%;
 
 }
 
@@ -65,8 +82,16 @@ footer{
 
 }
 
-.badge{
-  width: 120px;
-  margin-left:75px;
-  margin-top:10px;
+#appDownload{
+  border:none;
+
+}
+
+#feildHolder p{
+  color:grey;
+  text-align:center;
+  margin-top:0;
+  width:250px;
+  margin-left: 80px;
+  font-weight: bold;
 }
