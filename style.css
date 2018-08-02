@@ -1,22 +1,80 @@
+/*Tags*/
+body{
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+
 main {
   height: 745px;
-
-
+  margin: auto;
+  margin-left: 20%;
 }
 footer{
-  border: solid 1px black;
-  height: 100px;
+  height: 75px;
+}
+
+span{
+  font-weight: normal;
 
 }
 
-#imageSection {
-  margin-left: 20%;
+h3{
+float: left;
+
+}
+
+footer p{
+  float: left;
+  margin:30px 0 30px 20px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+/*Classes*/
+
+.rightBottomBox p{
+  margin:20px 40% 10px;
 }
 
 .positions {
   width: 32%;
   height: 745px;
   float:left;
+}
+
+.rightBottomBox{
+  height: 100px;
+  width: 410px;
+  margin: 10px 20px;
+}
+
+
+.badge{
+  width: 120px;
+  margin-left:75px;
+  margin-top:10px;
+}
+
+.line{
+  border-bottom:solid 1px grey;
+  width: 100px;
+  float: left;
+  margin:30px 10px;
+}
+
+
+
+/*ID's*/
+
+#imageHolder img{
+  width:400px;
+  margin-top: 40px;
+}
+
+#imageSection {
+  width: 400px;
 }
 
 #imageHolder {
@@ -27,19 +85,216 @@ footer{
 
 #feildHolder{
   border: solid 1px lightgrey;
-  height: 450px;
-  width: 90%;
-  margin: 35px 20px 0px 20px;
-}
-
-.rightBottomBox{
-  height: 100px;
-  width: 90%;
-  margin: 10px 20px;
-  border: solid 1px black;
+  height: 500px;
+  width: 410px;
+  margin: 20px 20px 0px 20px;
 }
 
 #loginBox{
   border: solid 1px lightgrey;
   height: 75px;
+}
+
+#loginBox p
+{
+  margin:29px 30%;
+
+}
+
+#Logo{
+  width: 250px;
+  margin: 10px 80px;
+}
+
+#playStore{
+  margin-left:20px;
+
+}
+
+#feildHolder p{
+  color:grey;
+  text-align:center;
+  margin-top:0;
+  width:250px;
+  margin-left: 80px;
+  font-weight: bold;
+}
+
+#feildHolder button{
+  color:white;
+  background-color:blue;
+  width:300px;
+  height:30px;
+  margin-left:60px;
+}
+
+#feildHolder input{
+  width:300px;
+  height:25px;
+  margin:4px 60px;
+  border: solid 1px lightgrey;
+  color: lightgrey;
+
+}
+
+#orLine{
+  margin:0 75px;
+  color: grey;
+}
+
+#bottomButton {
+  margin-bottom: 20px;
+}
+
+#date{
+  color: grey;
+  float: right;
+  margin:30px 200px 30px 0;
+  font-size: 15px;
+}
+
+/* media queries */
+@media screen and (max-width:1199px){
+  #imageSection  {
+    display: none;
+  }
+
+  main {
+    height: 745px;
+    margin: auto;
+    margin-left: 25%;
+  }
+}
+
+@media screen and (max-width:761px){
+  #imageSection  {
+    display: none;
+  }
+
+  main {
+    height: 745px;
+    margin: auto;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width:577px){
+  main {
+    height: 745px;
+    margin-left: 0;
+  }
+
+  footer{
+    width: 100%;
+
+  }
+
+  footer p{
+    float: left;
+    margin:30px 0 30px 20px;
+    font-size: 12px;
+
+  }
+
+
+
+  .position{
+    margin-left:0px;
+
+  }
+
+  .rightBottomBox{
+    height: 100px;
+    width: 380px;
+    margin: 10px 0px;
+  }
+
+
+  .badge{
+    width: 120px;
+    margin-left:50px;
+    margin-top:10px;
+  }
+
+  .line{
+    border-bottom:solid 1px grey;
+    width: 100px;
+    float: left;
+    margin:30px 10px;
+  }
+
+  #feildHolder{
+    border: solid 1px lightgrey;
+    height: 500px;
+    width: 380px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  #loginBox{
+    border: solid 1px lightgrey;
+    height: 75px;
+  }
+
+  #loginBox p
+  {
+    margin:29px 30%;
+
+  }
+
+  #playStore{
+    margin-left:20px;
+
+  }
+
+  #appDownload{
+    border:none;
+
+  }
+
+  #feildHolder p{
+    color:grey;
+    text-align:center;
+    margin-top:0;
+    width:250px;
+    margin-left: 65px;
+    font-weight: bold;
+  }
+
+  #feildHolder button{
+    color:white;
+    background-color:blue;
+    width:300px;
+    height:30px;
+    margin-left:40px;
+  }
+
+  #feildHolder input{
+    width:300px;
+    height:25px;
+    margin:4px 40px;
+    border: solid 1px lightgrey;
+    color: lightgrey;
+
+  }
+
+  #orLine{
+    margin:0 60px;
+    color: grey;
+  }
+
+  #bottomButton {
+    margin-bottom: 20px;
+  }
+
+  #date{
+    color: grey;
+    margin:auto;
+    font-size: 15px;
+  }
+
+  #Logo{
+    width: 250px;
+    margin: 10px 60px;
+  }
+
 }

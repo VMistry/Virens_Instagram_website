@@ -2,31 +2,59 @@
 <html>
   <head>
     <title>Fake Instagram</title>
-    <link rel="stylesheet" href="style.css">
-    </style>
+    <link rel="stylesheet" href="style.css"> <!--Links to style sheet-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   </head>
   <body>
     <main>
-      <section class="positions" id="imageSection">
+      <section class="positions" id="imageSection"><!--Section shown on the left-->
         <div id="imageHolder">
-          <img src="images/phonebase.png" alt="">
+          <img src="images/phonebase.png" alt="This is the advert image"><!--Picture of a smart phone-->
         </div>
       </section>
-      <section class="positions">
-        <div id="feildHolder">
-
+      <section class="positions"><!--Section shown on the right-->
+        <div id="feildHolder"><!--Contains resgister feilds-->
+          <img id="Logo" src="images/logo.png" alt=" This is the logo"><!--Logo of Instagram-->
+          <p>Signup to see photos and videos from your friends</p>
+          <button type="button" name="button">Login with facebook</button>
+          <div id="orLine">
+            <div class="line"></div>
+            <h3>or</h3>
+            <div class="line"></div>
+          </div>
+          <input type="text" value="Mobile Number or Email">
+          <input type="text" value="Name">
+          <input type="text" value="Username">
+          <input type="text" value="Password">
+          <button id="bottomButton"type="button" name="button">Signup</button>
+          <p><span>By signing up, you agree to our</span> Terms & Privacy Policy.</p>
         </div>
-        <div class="rightBottomBox" id="loginBox">
-
-
+        <div class="rightBottomBox" id="loginBox"><!--Contains login link-->
+          <p>
+            Have an account? <a href="#">Login</a><!--sentence with a link in it-->
+          </p>
         </div>
-        <div class="rightBottomBox">
-
-
+        <div id="appDownload" class="rightBottomBox"><!--Holds all the apps needed-->
+          <p>
+            Get the app.
+          </p>
+          <img class="badge" src="images/badge-iphone.png" alt="iPhone badge"><!--logo for iPhone-->
+          <img id="playStore" class="badge" src="images/badge-android.png" alt="Andriod badge"><!--logo of playStore-->
         </div>
       </section>
     </main>
     <footer>
+      <p>About us</p>
+      <p>Support</p>
+      <p>Blog</p>
+      <p>Press</p>
+      <p>API</p>
+      <p>Jobs</p>
+      <p>Privacy</p>
+      <p>Terms</p>
+      <p>Directory</p>
+      <p>Languages</p>
+      <p id="date">2017 INSTAGRAM</p>
     </footer>
   </body>
 </html>
