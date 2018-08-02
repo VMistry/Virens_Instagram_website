@@ -11,9 +11,7 @@ main {
   margin-left: 20%;
 }
 footer{
-  border: solid 1px black;
   height: 75px;
-
 }
 
 span{
@@ -30,6 +28,8 @@ footer p{
   float: left;
   margin:30px 0 30px 20px;
   font-size: 15px;
+  text-transform: uppercase;
+  font-size: 10px;
 }
 
 /*Classes*/
@@ -48,7 +48,6 @@ footer p{
   height: 100px;
   width: 410px;
   margin: 10px 20px;
-  border: solid 1px black;
 }
 
 
@@ -194,6 +193,7 @@ footer p{
     float: left;
     margin:30px 0 30px 20px;
     font-size: 12px;
+
   }
 
 
@@ -207,7 +207,6 @@ footer p{
     height: 100px;
     width: 380px;
     margin: 10px 0px;
-    border: solid 1px black;
   }
 
 
@@ -289,8 +288,7 @@ footer p{
 
   #date{
     color: grey;
-    float: right;
-    margin:30px 140px 30px 0;
+    margin:auto;
     font-size: 15px;
   }
 
